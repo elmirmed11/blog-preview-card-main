@@ -18,7 +18,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [(https://www.frontendmentor.io/solutions/blog-preview-card-S7mo5OPNYR)]
 - Live Site URL: [https://bloger-card.netlify.app]
 
 ## My process

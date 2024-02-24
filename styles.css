@@ -1,0 +1,98 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+:root {
+    --color-yellow: hsl(47, 88%, 63%);
+    --color-white: hsl(0, 0%, 100%);
+    --color-grey: hsl(0, 0%, 50%);
+    --color-black: hsl(0, 0%, 7%);
+}
+
+body {
+    font-family: Figtree, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-black);
+    background-color: var(--color-yellow);
+    margin: 0;
+}
+
+main {
+    width: 380px;
+    height: 510px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid var(--color-grey);
+    border-radius: 20px;
+    background-color: var(--color-white);
+    box-shadow: 8px 8px var(--color-black);
+    position: absolute;
+    right: 0; left: 0; top: 0; bottom: 0;
+}
+
+main:hover {box-shadow: 15px 15px var(--color-black);}
+
+#image {
+    height: 45%;
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+header {
+    font-weight: 800;
+    font-size: 14px;
+    background-color: var(--color-yellow);
+    display: inline;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+sub {
+    display: block;
+    margin-block: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+h1:hover {
+    cursor: pointer;
+    color: var(--color-yellow);
+}
+
+p {color: var(--color-grey);}
+
+figure {
+    display: flex;
+    margin: 0;
+    align-items: center;
+    gap: 12px;
+}
+
+.profile {
+    width: 34px;
+    margin-top: 10px;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+@media (max-width: 500px) {
+    main {
+        width: 340px;
+        height: 470px;
+    }
+    #image {
+        margin: -7px 0 10px;
+    }
+}
+
